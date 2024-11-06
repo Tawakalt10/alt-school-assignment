@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sevillana&family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: "Lato", sans-serif;
+ 
+}
+
+body{
+    background-color: #F5F8FA;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(221, 220, 220);
+    
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    margin-bottom: .9rem;
+    margin-top: .4rem;
+    
+}
+
+.nav-img {
+    margin-bottom: .9rem;
+    margin-top: .4rem;
+}
+
+.nav-list .nav-item{    
+    list-style-type: none;
+    
+}
+
+.nav-item{
+    margin: .5rem;
+    font-weight: 550 ;
+}
+.accnt{
+    border: solid 2px black;
+    width: 5rem;
+    padding: .3rem;
+    height: 2rem;
+    border-radius: .4rem;
+}
+
+.wrapper{
+    width: 892px;
+    /* height: 795px; */
+    top: 186px;
+    left: 6px;
+    background-color: #FFFFFF ;
+    display: flex;
+}
+
+.checkout-card{
+    width: 580px;
+     height: 795px; 
+    position: absolute;
+    top: 227px;
+    left: 262px;
+        
+}
+
+.freelancer{
+    width: 312px;
+    height: 75px;
+    position: absolute;
+    top: 186px;
+    left: 842px;
+}
+
+.checkout{
+    width: 161px;
+    height: 54px;
+    /* top: 227px; */
+    /* left: 310px; */
+    /* position: relative; */
+    font-weight: 400;
+    size: 30px;
+    line-height: 36px;
+ 
+}
+
+.basic-info{
+    width: 580px;
+    height: 221px;
+    top: 341px;
+    left: 262px;
+}
+
+.basic-heading{
+    font-weight: 700;
+    size:  18px;
+    line-height: 21.6px;
+    color: #1D2C3C;
+    width: 260px;
+    height: 34px;
+    top: 341px;
+    left: 311px;
+    
+}
+
+span{
+     border: 2px solid #548BC5;
+     color: #548BC5;
+      border-radius: 50% ; 
+      width: 100px;
+      height: 100px;
+     padding: .4rem;
+     top: 276px;
+     left: 256px;
+     
+}
+
+label{
+    width: 187px;
+    height: 17px;   
+}
+
+
