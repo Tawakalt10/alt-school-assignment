@@ -63,8 +63,8 @@ body{
     width: 580px;
      height: 795px; 
     position: absolute;
-    top: 227px;
-    left: 262px;
+    /* top: 227px;
+    left: 262px; */
         
 }
 
@@ -72,8 +72,8 @@ body{
     width: 312px;
     height: 75px;
     position: absolute;
-    top: 186px;
-    left: 842px;
+    /* top: 186px;
+    left: 842px; */
 }
 
 .checkout{
@@ -91,8 +91,8 @@ body{
 .basic-info{
     width: 580px;
     height: 221px;
-    top: 341px;
-    left: 262px;
+    /* top: 341px;
+    left: 262px; */
 }
 
 .basic-heading{
@@ -102,8 +102,8 @@ body{
     color: #1D2C3C;
     width: 260px;
     height: 34px;
-    top: 341px;
-    left: 311px;
+    /* top: 341px;
+    left: 311px; */
     
 }
 
@@ -114,8 +114,8 @@ span{
       width: 100px;
       height: 100px;
      padding: .4rem;
-     top: 276px;
-     left: 256px;
+     /* top: 276px;
+     left: 256px; */
      
 }
 
