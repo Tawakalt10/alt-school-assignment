@@ -39,15 +39,14 @@ h3 {
     margin: .5rem;
 }
 
- @media (max-width:350px) {
+ @media (max-width: 350px) {
 
     .container{
-    background-color:rgb(220, 23, 23);
-    height: 80vh;
-   max-width: 300px;
-    /* border: 2px solid rgb(25, 4, 4); */
+    background-color: black;
+    height: 70vh;
+     width: 260px;
     border-radius: 2rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     }
 
 
@@ -79,4 +78,4 @@ ul a {
    
     
 }
- }
+  }
