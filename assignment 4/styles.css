@@ -180,7 +180,7 @@ form {
 }
 
 .form-details{
-    margin-top: 2px;
+    /* margin-top: 2px; */
     width: 327px;
 
 }
@@ -190,3 +190,35 @@ form{
 }
 
 }
+
+
+@media (max-width:350px) {
+
+    .parent-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 325px;
+    }
+
+    .label-input-container{
+        display: block;
+        align-items: center;
+        gap: 20px;
+        margin: 6px;
+      
+      }
+
+      .form-details{
+      
+        width: 320px;
+        height: 730px; 
+        font-weight: 500;
+        overflow: hidden;
+        
+       
+   }
+
+
+}
+
