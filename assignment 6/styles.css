@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.list-item{
+    margin-left: 1.5rem;
+}
+
+.active,
+.learn-more{
+    color:  rgba(0, 101, 254, 1);
+    
+}
+
+.nav-list .list-item,
+.nav-login .login-item{
+    list-style-type: none;
+}
+
+.nav-login{
+    display: flex;
+    align-items: center;
+    margin-top: .8rem;
+}
+
+.login-item{
+    margin-right: 1rem;
+}
+
+.login-btn,
+.signup-btn{
+    width: 8rem;
+    height: 2.8rem;
+    background-color: rgba(0, 101, 254, 1);
+    color: #ffff;
+    border-radius: 100px;
+    border:  rgba(0, 101, 254, 1) ;
+    outline: none;
+    
+}
+
+.headings{
+    width: 948px;
+    height: 313px;
+    gap: 8rem;
+    padding-left: 12rem;
+    padding-top: 1rem;
+}
+
+.optimize
+{
+    font-size: 2rem;
+    line-height: 80px;
+    text-align: center;
+    /* height: 200px; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.url{
+    color: rgba(0, 90, 226, 1);
+}
+
+.url-img{
+    width: 174px;
+    position: relative;
+    top: -30px;
+    left: 280px;
+    /* top: 235px;
+    left: 460px; */
+}
+
+.hero-para{
+    
+    width:781px ;
+    height: 108px;
+    color: rgba(20, 20, 20, 1);
+    text-align: center;
+    line-height: 28px;
+}
+
+
+
+.signup{
+  display: flex;
+  align-items: center;
+  margin-left: 14rem;
+}
+
+.learn-more{
+    margin-left: 2rem;
+}
+
+.box-url{
+    width:500px ; 
+    height:8rem ;
+    /* color: rgba(254, 254, 254, 0.1); */
+    border:  1px solid  rgba(0, 90, 226, 1)  ;
+    margin-left: 20rem;
+    margin-top: 4rem;
+    padding-left: 3rem;
+    background-color:rgba(254, 254, 254, 0.1) ;  
+    font-size: .9rem;
+  
+
+}
+
+.box-para{
+    padding-left: 5rem;
+    text-align: center;
+}
+
+.box-span{
+    font-weight: 700;
+}
+
+.gradient{
+    padding-left: 14rem;
+    margin-top: 1em;
+}
+
+.number-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 2rem;
+}
+
+.one-stop{
+    font-size: 40px;
+    line-height: 48px;
+    color: rgba(20, 20, 20, 1) ;
+    height: 96px;
+}
+
+.number-section p{
+    font-size: .8rem;
+    line-height: 24px;
+    height: 52px;
+    width:123px ;
+}
