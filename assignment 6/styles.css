@@ -200,6 +200,27 @@
     margin-right: 3rem;
 }
 
+.price{
+    text-align: center;
+    width: 480px ;
+    height: 108px;
+    margin-left: 25rem;
+    
+    
+}
+
+.price h4{
+    font-size: 2rem;
+    line-height: 40px;
+    margin-bottom: .2rem;
+   
+}
+
+.price p{
+    font-size: .8rem;
+    text-align: center;
+}
+
 .card-container{
     width: 1088px;
     height: 627px;
@@ -209,9 +230,11 @@
 }
 
 .basic-info{
-    width: 379px;
-    height: 455px;
+    width: 340px;
+    height: 380px;
     border: 1px solid rgba(0, 90, 226, 1) ;
+    padding-left: 2rem;
+    margin-top: 3rem;
 }
 
 .basic-list{
@@ -220,11 +243,52 @@
     height: 320px ;
     gap: 16px;
     font-size: .8rem;
-    line-height: 24px;
-    padding-left: 2rem;
-    margin: 2rem;
+    line-height: 24px; 
+    margin: 1rem;
 }
 
- .basic-list li {
+ .basic-item i {
+    margin-bottom: 1.8rem;
+    color: rgba(0, 90, 226, 1);
+    
+}
+
+.basic-item{
+    margin-bottom: .5rem;
+}
+
+.basic-info p{
+   font-size: .9rem;
+   padding-left: 2rem;
+ 
+}
+
+.basic-info h3{
+    font-size: 1.4rem;
+    padding-left: 2rem;
     margin-bottom: 1rem;
+}
+
+.basic-info h4{
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.basic-info.professional{
+    background: #1E3448 ; 
+    width: 410px ;
+    height: 520px;
+    color: #fff;
+    border-radius: 2rem;
+    margin-top: -1rem;
+}
+
+.basic-info.basic-info.professional h4{
+    margin-top: 4.5rem;
+}
+.basic-info.basic-info.professional i{
+    color: #fff;
 }
