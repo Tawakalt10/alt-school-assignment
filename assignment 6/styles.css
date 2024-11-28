@@ -387,6 +387,14 @@
     font-weight: 700;
  }
 
+ .faqs{
+    margin-top: 2rem;
+    margin-left: 20rem;
+    /* text-align: center; */
+    border-left:  1px solid   #112232 ;
+    font-size: 1.5rem;
+ }
+
  .faqs-container{
    width: 792px;
    height: 700px ;
@@ -427,3 +435,72 @@
     font-size: .7rem;
  }
 
+
+ .link-optimization{
+    width: 100%;
+    height: 200px;
+    /* margin-top: 1rem; */
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+
+ }
+
+ .link-optimization-heading{
+    text-align: center;
+    font-size: 1.5rem;
+     color: #fff; 
+    line-height: 30px;
+    padding-top: 3rem; 
+ }
+
+ .get{
+    margin-left: 34rem;
+    margin-top: 2rem;
+ }
+ .footer{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 3rem;
+ }
+
+ .footer-icons i{
+    margin-left: 1rem;
+ }
+ .footer-logos{
+    margin-right: 2rem;
+ }
+ .footer-info{
+    display: flex;
+    width: 700px ;
+    height: 324px;
+    flex-wrap: wrap;
+    margin-top: .8rem;
+    
+    
+ }
+
+ .footer-item{
+    list-style: none;
+    margin-bottom: .3rem;
+ }
+
+ .footer-lists{
+    margin-right: 3rem;
+    font-size: .9rem;
+ }
+
+ .head{
+    font-weight: 700;
+    margin-bottom: .8rem;
+ }
+ 
+ .footer-para{
+    display: flex;
+    justify-content: right;
+    font-size: .8rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+ }
+
+ .footer-para p {
+    margin-right: .5rem;
+ }
