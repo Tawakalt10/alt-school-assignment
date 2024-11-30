@@ -728,12 +728,12 @@
 }
 
 .basic-info.professional{
-    background: #1E3448 ; 
-    width: 300px ;
+    
+    width: 280px ;
     height: 400px;
     color: #fff;
     border-radius: 2rem;
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
 }
 
 .basic-info.basic-info.professional h4{
