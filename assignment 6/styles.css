@@ -506,7 +506,7 @@
  }
 
  /* Responsive design  */
- @media  screen  and (max-width:350px) {
+ @media  screen  and (max-width:400px) {
 /*      
     .nav{
         display: none;
@@ -514,16 +514,17 @@
 
 
     .headings{  
-        /* width: 300px;  */
-        height: 300px;
+        width: 330px;   
+        height: fit-content;
        
         
     }
 
     .optimize{
-        font-size: 1.1rem;
-        text-align: start;
-        line-height: 30px;
+        font-size: 1.4rem;
+        /* text-align: center;  */
+        line-height: 20px;
+        margin-left: 2rem;
     }
     
     .url-img{
@@ -531,45 +532,84 @@
     }
 
     .hero-para{
-        width: 300px ;
+        width: 330px ;
         height: 128px;
         text-align: center;
         line-height: 25px;
         margin-top: .5rem;
         font-size: .9rem;
+
     }
 
- 
+    .signup{
+        margin-top: .3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+        width: 330px;
+      }
 
+      .box-url{
+        width :310px ; 
+        height:8rem ;
+        margin-top: 1.5rem;
+        font-size: .9rem;
+        margin-left: 12rem;
+        
     
-.box-url{
-    margin-left: .3rem;
-    margin-top: 4rem;
-    padding-left: 0;
+    }
 
-}
+    .box-img{
+        width: 290px;
+        padding-right: 3rem;
+        
+        
+    }
+    
+    .box-para{
+        text-align: start;
+        padding-left: 0rem;
 
-.box-para{
-    padding-right: 0;
-    text-align: center;
-}
+    }
 
 
-.gradient{
+
+.gradient-img{
     padding-left: 1rem;
     margin-top: 2rem;
-    width: 300px;
+   max-width: 330px;
+   
 }
 
 .one-stop{
-    font-size: 40px;
-    line-height: 35px;
-    height: 96px;
+    font-size:1.2rem;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    padding-left: 10rem; 
 }
 
-.number-section{
-    padding-left: 10rem;
+ .number-section{
+    display: block;
     margin-top: 1rem;
+} 
+
+.number-holder{
+    /* padding-left: 10rem;  */
+    margin-top: 5rem;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+.number-1{
+    margin-left: 1.3rem;
+    margin-top: 1.3rem;
 }
 
 .number-section p{
