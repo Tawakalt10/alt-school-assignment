@@ -508,24 +508,34 @@
  /* Responsive design  */
  @media  screen  and (max-width: 350px) {
      
-    .headings{
-         
-        height: 313px;
-        gap: 4rem;
-        padding-left: 5rem;
+    .headings{   
+        max-width: 280px;
+        height: 350px;
+        /* gap: 1rem; */
         padding-top: .5rem;
+        margin-left: 5rem;
+        
+       
     }
+
+    .optimize{
+        font-size: .5rem;
+        
+
+    }
+
+ 
 
     
 .box-url{
-    margin-left: 14rem;
+    margin-left: .3rem;
     margin-top: 4rem;
-    padding-left: 2rem;
+    padding-left: 0;
 
 }
 
 .box-para{
-    padding-right: 5rem;
+    padding-right: 0;
     text-align: center;
 }
 
