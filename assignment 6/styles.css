@@ -553,7 +553,7 @@
        width :300px ; 
         height: 7rem ;
         margin-top: 1.5rem;
-        margin-left: 0;
+        margin-left: 2rem;
         margin-right: 0;
             
     }
@@ -663,7 +663,7 @@
     height: 180px; 
     gap: 1px;
     margin-left: .6rem;
-    margin-right: 1rem;
+    margin-right: 1.1rem;
     font-size: .8rem;
     margin-bottom: .5rem;
 }
