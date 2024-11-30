@@ -550,16 +550,16 @@
       }
 
       .box-url{
-       width :300px ; 
+       width :280px ; 
         height: 7rem ;
         margin-top: 1.5rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-right: 0;
             
     }
 
     .box-img{
-        width: 290px;
+        width: 270px;
         padding-right: 3rem 
         
     }
