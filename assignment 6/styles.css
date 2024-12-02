@@ -299,8 +299,8 @@
 .price-buttons button{
     margin-left: 4rem;
     
-    
 }
+
 .pricing{    
     width: 10rem;
     background: #fff;
@@ -668,6 +668,7 @@
     margin-bottom: .5rem;
 }
 
+
 .card-container{
     width: 280px;
     height: fit-content;
@@ -699,9 +700,8 @@
 
  .basic-item i {
     margin-bottom: .4rem;
-   
-    
 }
+
 
 .basic-item{
     margin-bottom: .5rem;
@@ -745,8 +745,7 @@
     width: 200px ;
     height: 108px;
     margin-left: 2rem;
-    
-    
+      
 }
 
 .price h4{
@@ -761,17 +760,148 @@
     text-align: center;
 }
 
-
-
-
-
 .price-buttons{
-     margin-left: 30rem;
+     margin-left: 1rem ;
+     margin-bottom:  5rem 
 }
 .price-buttons button{
-    margin-left: 4rem;
-    
+    margin-top:  1rem;
     
 }
+
+
+.trim-container{
+    margin-top: 1rem;
+    width: 280px;
+    height: 380px;
+     margin-left: 1rem;
+    
+}
+
+.input-container{
+    width:250px ;
+    height: 290px;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    margin-top: .2rem;
+}
+
+.paste input{
+    width: 200px;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+.choose input{
+    width: 200px;
+}
+
+ .input-container input {
+  padding-left: 1rem;
+ }
+
+
+ input::placeholder{
+    color: rgba(50, 132, 255, 1);
+ }
+
+ .trim{
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+ }
+
+ .choose p{
+    font-size: .7rem;
+    margin-left: 1.6rem;
+
+ }
+
+
+ .faqs{
+    margin-top: 2rem;
+     text-align: center; 
+     margin-left: 3rem; 
+    font-size: 1.5rem;
+ }
+
+ .faqs-container{
+   width: 280px;
+   height: 850px ;
+   padding-left: 0rem;
+    
+ }
+
+
+ .link-optimization{
+    max-width: 350px;
+    height: 200px;
+    /* margin-top: 1rem; */
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+
+ }
+
+ .link-optimization-heading{
+    text-align: center;
+    font-size: 1.5rem;
+     color: #fff; 
+    line-height: 30px;
+    padding-top: 3rem; 
+ }
+
+ .get{
+    margin-left: 7rem;
+    margin-top: 2rem;
+
+ }
+
+ .footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.8rem;
+    margin-top: 3rem;
+ }
+
+ .footer-icons i{
+    margin-left: 1rem;
+ }
+ .footer-logos{
+    margin-right: 2rem;
+ }
+ .footer-info{
+    display: flex;
+    /* flex-direction: column; */
+    width: 250px ;
+    height: 900px;
+    margin-top: .8rem;
+    
+    
+ }
+
+ .footer-lists{
+    margin-right: 3rem;
+    font-size: .8rem;
+ }
+
+ .head{
+    font-weight: 700;
+    margin-bottom: .8rem;
+ }
+ 
+ .footer-para{
+    display: flex;
+    justify-content: right;
+    font-size: .8rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+ }
+
+ .footer-para p {
+    margin-right: .5rem;
+ }
+
 
  }
